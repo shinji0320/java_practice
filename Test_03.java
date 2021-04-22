@@ -51,5 +51,14 @@ class Test_03 {
     System.out.println(arr3[1][0]);
     System.out.println(arr3[1][1]);
 
+    int x = 10;
+    int y = 2;
+
+    System.out.println(x+y);
+    System.out.println(x-y);
+    System.out.println(x*y);
+    System.out.println(x/y);
+    System.out.println(x%y);
+
   }
 }
