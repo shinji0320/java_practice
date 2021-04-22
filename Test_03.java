@@ -29,5 +29,20 @@ class Test_03 {
     System.out.println(arr1[0]);
     System.out.println(arr1[1]);
     System.out.println(arr1[2]);
+
+
+    String[][] arr2;
+    arr2 = new String[2][2];
+
+    arr2[0][0] = "aaa";
+    arr2[0][1] = "bbb";
+    arr2[1][0] = "ccc";
+    arr2[1][1] = "ddd";
+
+    System.out.println(arr2[0][0]);
+    System.out.println(arr2[0][1]);
+    System.out.println(arr2[1][0]);
+    System.out.println(arr2[1][1]);
+
   }
 }
