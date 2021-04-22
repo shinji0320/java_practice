@@ -44,5 +44,12 @@ class Test_03 {
     System.out.println(arr2[1][0]);
     System.out.println(arr2[1][1]);
 
+    String[][] arr3 = {{"qq","ww"},{"ee","rr"}};
+
+    System.out.println(arr3[0][0]);
+    System.out.println(arr3[0][1]);
+    System.out.println(arr3[1][0]);
+    System.out.println(arr3[1][1]);
+
   }
 }
