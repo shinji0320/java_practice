@@ -70,5 +70,30 @@ class Test_03 {
     System.out.println(x == y);
     System.out.println(x != y);
 
+    int x1 = 8;
+    int y1 = 3;
+
+    System.out.println(x1 >= 5 && x1 <= 10);
+    System.out.println(y1 >= 5 && y1 <= 10);
+
+    System.out.println(x1 == 3 || y1 == 3);
+    System.out.println(x1 == 1 || y1 == 1);
+
+    int x2 = 8;
+    int y2 = 12;
+    int z2 = 20;
+
+    System.out.println(x2 += 10);
+    System.out.println(z2 += y2);
+
+    int x3 = 8;
+    int y3 = 8;
+
+    x3++;
+    y3--;
+
+    System.out.println(x3);
+    System.out.println(y3);
+
   }
 }
